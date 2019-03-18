@@ -68,25 +68,31 @@ public class Level4 {
 		
 		
 		
-		
+		System.out.print("numbers.parallelStream().forEach() ");
 		numbers.parallelStream().forEach(e -> System.out.print(e + " "));
 		System.out.println(" ");
+		System.out.print("numbers.stream().forEach() ");
 		numbers.stream().forEach(e -> System.out.print(e + " "));
 		System.out.println(" ");
 
+		System.out.print("numbers.parallelStream().forEachOrdered() ");
 		numbers.parallelStream().forEachOrdered(e -> System.out.print(e + " "));
 		System.out.println(" ");
+		System.out.print("numbers.stream().forEachOrdered() ");
 		numbers.stream().forEachOrdered(e -> System.out.print(e + " "));
 		System.out.println(" ");
 
-		
+		System.out.print("numbers.parallelStream().sorted().forEach() ");
 		numbers.parallelStream().sorted().forEach(e -> System.out.print(e + " "));
 		System.out.println(" ");
+		System.out.print("numbers.stream().sorted().forEach() ");
 		numbers.stream().sorted().forEach(e -> System.out.print(e + " "));
 		System.out.println(" ");
 		
+		System.out.print("numbers.parallelStream().sorted().forEachOrdered() ");
 		numbers.parallelStream().sorted().forEachOrdered(e -> System.out.print(e + " "));
 		System.out.println(" ");
+		System.out.print("numbers.stream().sorted().forEachOrdered ");
 		numbers.stream().sorted().forEachOrdered(e -> System.out.print(e + " "));
 		System.out.println(" ");
 

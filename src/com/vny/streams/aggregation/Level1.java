@@ -8,7 +8,7 @@ public class Level1 {
 
 	public static void main(String[] args) {
 		List<Student> school = Student.createSchool();
-
+		
 		/*
 		 * Aggregation Operation Before Java 8
 		 * 		 
@@ -18,7 +18,7 @@ public class Level1 {
 			System.out.println(student);
 		}
 		System.out.println(" ");
-
+		
 		/*
 		 * Aggregation Operation After Java 8
 		 */
