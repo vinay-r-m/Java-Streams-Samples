@@ -126,6 +126,28 @@ public class Student {
 				.setRollnum(String.valueOf(random.ints(1000, (9999)).findFirst().getAsInt())).setSection(Section.IX));
 		school.add(new Student().setAge(9).setGender(Gender.FEMALE).setGrade(Grade.D).setName("Mozic")
 				.setRollnum(String.valueOf(random.ints(1000, (9999)).findFirst().getAsInt())).setSection(Section.X));
+		school.add(new Student().setAge(9).setGender(Gender.MALE).setGrade(Grade.C).setName("Aqua")
+				.setRollnum(String.valueOf(random.ints(1000, (9999)).findFirst().getAsInt())).setSection(Section.VI));
+		school.add(new Student().setAge(4).setGender(Gender.MALE).setGrade(Grade.C).setName("Ameo")
+				.setRollnum(String.valueOf(random.ints(1000, (9999)).findFirst().getAsInt())).setSection(Section.VI));
+		school.add(new Student().setAge(5).setGender(Gender.FEMALE).setGrade(Grade.C).setName("Brack")
+				.setRollnum(String.valueOf(random.ints(1000, (9999)).findFirst().getAsInt())).setSection(Section.VI));
+		school.add(new Student().setAge(6).setGender(Gender.MALE).setGrade(Grade.C).setName("Juew")
+				.setRollnum(String.valueOf(random.ints(1000, (9999)).findFirst().getAsInt())).setSection(Section.VI));
+		school.add(new Student().setAge(10).setGender(Gender.FEMALE).setGrade(Grade.C).setName("Kale")
+				.setRollnum(String.valueOf(random.ints(1000, (9999)).findFirst().getAsInt())).setSection(Section.VI));
+		school.add(new Student().setAge(5).setGender(Gender.MALE).setGrade(Grade.C).setName("Loe")
+				.setRollnum(String.valueOf(random.ints(1000, (9999)).findFirst().getAsInt())).setSection(Section.VI));
+		school.add(new Student().setAge(6).setGender(Gender.FEMALE).setGrade(Grade.C).setName("meow")
+				.setRollnum(String.valueOf(random.ints(1000, (9999)).findFirst().getAsInt())).setSection(Section.VI));
+		school.add(new Student().setAge(8).setGender(Gender.MALE).setGrade(Grade.C).setName("difrt")
+				.setRollnum(String.valueOf(random.ints(1000, (9999)).findFirst().getAsInt())).setSection(Section.VI));
+		school.add(new Student().setAge(9).setGender(Gender.FEMALE).setGrade(Grade.C).setName("heost")
+				.setRollnum(String.valueOf(random.ints(1000, (9999)).findFirst().getAsInt())).setSection(Section.VI));
+		school.add(new Student().setAge(11).setGender(Gender.MALE).setGrade(Grade.C).setName("keol")
+				.setRollnum(String.valueOf(random.ints(1000, (9999)).findFirst().getAsInt())).setSection(Section.VI));
+		school.add(new Student().setAge(4).setGender(Gender.FEMALE).setGrade(Grade.C).setName("nomes")
+				.setRollnum(String.valueOf(random.ints(1000, (9999)).findFirst().getAsInt())).setSection(Section.VI));
 		return school;
 
 	}
